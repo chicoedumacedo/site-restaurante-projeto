@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: 0;
+    box-sizing: border-box;
+}
+
+“/*”body{
+    position: relative;
+    width: 1286px;
+    height: 3211px;
+    background: #FFFFFF;
+}“*/”
+
+.container{
+    width: auto;
+    height: auto;
+    background-color: #a8e9a6;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerTop{
+    width: 100%;
+    height: 580px;
+    background-color: #8a6969;
+    display: flex; 
+}
+
+.containerInfo{
+    width: 100%;
+    height: 400px;
+    background-color: #6d6363;
+    display: flex;
+    flex-direction: row;
+    
+}
+.containerInfoLeft{
+    width: 33%;
+    height: 400px;
+    background-color: #945c5c;
+    display: flex;
+
+}
+
+.containerBannerCenter{
+    width: 33%;
+    height: 400px;
+    background-color: #5a3c3c;
+    display: flex;
+}
+
+.containerBannerRight{
+    width: 33%;
+    height: 400px;
+    background-color: #ff0000;
+    display: flex;
+}
+
+.containerBanner{
+    width: 100%;
+    height: 400px;
+    background-color: #857575;
+    display: flex;
+}
+
+.containerBannerLeft{
+    width: 40%;
+    height: 400px;
+    background-color: #226fb8;
+    display: flex;
+}
+
+.containerBannerRight{
+    width: 60%;
+    height: 400px;
+    background-color: #6587a7;
+    display: flex;
+}
+
+.containerWelcome{
+    width: 100%;
+    height: 400px;    
+    background-color: #e6afaf;
+    display: flex;
+}
+
+.containerWelcomeLeft{
+    width: 60%;
+    height: 400px;    
+    background-color: #dee69f;
+    display: flex;
+}
+
+.containerWelcomeRight{
+    width: 60%;
+    height: 400px;    
+    background-color: #f7f32c;
+    display: flex;   
+}
+
+
+.containerLink{
+    width: 100%;
+    height: 400px;  
+    background-color: #e95c5c;
+    display: flex;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #f3a632;
+    display: flex;
+}
