@@ -68,7 +68,7 @@
 .containerBannerLeft{
     width: 40%;
     height: 517px;
-    background-color: blue;
+    /*background-color: blue;*/
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -97,7 +97,7 @@
 .containerBannerRight{
     width: 60%;
     height: 517px;
-    background-color: red;
+    /*background-color: red;*/
     display: flex;
     justify-content: center;
 
@@ -106,21 +106,30 @@
 .containerWelcome{
     width: 100%;
     height: 517px;    
-    background-color: #e6afaf;
+    background-color: #FFF0ED;
     display: flex;
 }
 
 .containerWelcomeLeft{
     width: 60%;
     height: 517px;    
-    background-color: #dee69f;
+    /*background-color: #dee69f;*/
     display: flex;
     justify-content: center;
 }
 
-.imgWelcome{
+.getButton{
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.textButtonGet{
+    font-family: arial, sans-serif;;
+    font-size: 14px;
+    color: white;
 }
 
 .textWelcome1{
@@ -139,10 +148,24 @@
     line-height: 24px;
 }
 
+.findButton{
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.textButtonFind{
+    font-family: arial, sans-serif;;
+    font-size: 14px;
+    color: white;
+}
+
 .containerWelcomeRight{
     width: 40%;
     height: 517px;    
-    background-color: #f7f32c;
+    /*background-color: #f7f32c;*/
     display: flex;  
     justify-content: center;
     display: flex;
@@ -162,7 +185,30 @@
 
 .footer{
     width: 100%;
-    height: 400px;
+    height: 50px;
     background-color: #f3a632;
     display: flex;
+    
+}
+
+.footerLeft{
+    width: 70%;
+    height: 100%;
+    background-color: gray;
+    justify-content: space-evenly;
+}
+
+/*.butonFooter{
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;*/
+}
+
+.footerRight{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(129, 0, 0);
+
 }
