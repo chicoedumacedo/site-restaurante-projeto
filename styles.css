@@ -105,23 +105,51 @@
 
 .containerWelcome{
     width: 100%;
-    height: 400px;    
+    height: 517px;    
     background-color: #e6afaf;
     display: flex;
 }
 
 .containerWelcomeLeft{
     width: 60%;
-    height: 400px;    
+    height: 517px;    
     background-color: #dee69f;
     display: flex;
+    justify-content: center;
+}
+
+.imgWelcome{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.textWelcome1{
+    /* font-style: italic; */
+	font-weight: 700;
+	font-size: 40px;
+	font-family: arial, sans-serif;
+    line-height: 48px;
+}
+
+.textWelcome2{
+    /* font-style: italic; */
+    font-weight: 500;
+	font-size: 18px;
+	font-family: arial, sans-serif;
+    line-height: 24px;
 }
 
 .containerWelcomeRight{
-    width: 60%;
-    height: 400px;    
+    width: 40%;
+    height: 517px;    
     background-color: #f7f32c;
-    display: flex;   
+    display: flex;  
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 30px;
 }
 
 
